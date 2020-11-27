@@ -15,13 +15,31 @@ $color6: #49261f;
 
 }
 .container.layer1 {
-    margin-left: 10px;
     margin-top: 3px;
     background-color: $color3;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+.container.layer2 {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 100px;
+}
+
+.container.layer3 {
+    display: block;
+}
+
+footer{
+	margin-top: 15px;
+}  
+
+.col-6.layer2 {
+    height: 10;
 }
 
 .row.topBar {
-    height: 100px;
     border-color: $color3;
 
 }
@@ -29,10 +47,9 @@ $color6: #49261f;
 .col-2.flag {
     display: block;
     background-color: $color3;
-}
-.flagclass { 
-    width: 80%;
-    height: auto;
+    width: 100%;
+    margin-top: 5%;
+    margin: auto;
 }
 
 .col-10.logo {
@@ -50,12 +67,18 @@ $color6: #49261f;
 }
 
 h1.gallinas {
-    padding-top: 1vh;
     max-width: 100%;
-    height: auto;
     font-family: 'Dosis', sans-serif;
-    font-size: 5vw;
+    font-size: 8vw;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     
+}
+
+.navbar {
+    background-color: $color4 !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .nav-item {
@@ -73,6 +96,43 @@ a.nav-link {
     text-transform: uppercase; 
 }
 
-.navbar {
-    background-color: $color4 !important;
+.dropdown-menu {
+    background-color: $color2;
+   
+}
+.dropdown-item {
+    color: $color3;
+}
+
+.d-block.w-100 {
+    object-fit: fill !important;
+}
+
+
+
+.mainImage {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.cardimg {
+    background-color: $color1;
+    padding: 0.1rem;
+}
+
+.cardimg {
+    object-fit: cover;
+    box-sizing: 10%;
+    border-color: $color1;
+    
+}
+
+.cardimg:hover {
+    background-color: red;
+    
+}
+
+.row.footer-distributed {
+    background-color: $color6;
+    color: $color3;
 }
